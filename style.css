@@ -1,0 +1,53 @@
+body{
+    background-size: cover;
+}
+
+#head{
+    background-image: url("header.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 0px;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Fruktur', cursive;
+}
+
+#note{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_speed_img , .div_volume_img {
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+
+#speed , #volume{
+    font-size: 23px;
+    margin: 15px;
+   
+}
+
+
+
+.div_volume{
+    float:right
+}
+.play_button{
+    font-size: 25px;
+    background-color: green;
+}
+
+canvas{
+    margin-top: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
